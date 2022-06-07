@@ -15,7 +15,7 @@ To follow along, you will need to have NodeJS and Angular CLI installed on your 
 Creating your Google service to send emails
 This was made by using Send Email from a Static HTML Form using Google Apps Mail! repository which goes through the full details on implementing this onto your Google account. Full credit goes to the developers that worked on the project.
 
-Start by making a copy of this spreadsheet using your Google Account.
+Start by making a copy of [this spreadsheet](https://docs.google.com/spreadsheets/d/1ro0xwCDh9ED4dsNWc6IBE3uUU1wukpVhDQOABrMesmY/edit#gid=0) using your Google Account.
 Open the Script Editor by clicking “Tools” > “Script Editor”
 Uncomment the TO_ADDRESS field and change example@email.net to your email
 Save it by clicking “File” > “Manage versions” and typing in a version name
