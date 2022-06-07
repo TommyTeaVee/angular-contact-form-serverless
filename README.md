@@ -1,27 +1,28 @@
-# AngularApplication
+Contact Form Without a Server Using Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
+Finished contact form using Material without a server
+Do you ever need a contact form for your personal website, but don’t want to have to setup a backend server, use SendGrid, Mailchimp, Formspree, to send only a few emails a day? Look no further, you can send emails and log them in a Google Spreadsheet without having to spend any money or time managing, deploying, and creating a backend server.
 
-## Development server
+Overview
+In this tutorial, we will be going through the following concepts:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Creating our Google service to send emails
+Angular Reactive Forms
+Form creation using HTML and CSS and data binding
+Pre-requisites
+To follow along, you will need to have NodeJS and Angular CLI installed on your computer, and a Google account to send emails.
 
-## Code scaffolding
+Creating your Google service to send emails
+This was made by using Send Email from a Static HTML Form using Google Apps Mail! repository which goes through the full details on implementing this onto your Google account. Full credit goes to the developers that worked on the project.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Start by making a copy of this spreadsheet using your Google Account.
+Open the Script Editor by clicking “Tools” > “Script Editor”
+Uncomment the TO_ADDRESS field and change example@email.net to your email
+Save it by clicking “File” > “Manage versions” and typing in a version name
+Publish it as a web application by clicking “Publish” > “Deploy as web app…” and select the latest project version
+Authorize the application and copy the web application URL
+Now that you’re done setting up the script that will handle all the submissions, we can start by creating a form to utilize our created script.
 
-## Build
+Create a new Angular App and a component
+Creating a new Angular application is quite easy using the Angular CLI. Start by opening the Command Prompt or Terminal and creating the application using the Angular CLI. After the application has been created, generate a component (in this case our contact component) to put our forms into. We will be using the Material theme to style our form.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
